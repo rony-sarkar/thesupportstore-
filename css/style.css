@@ -1,0 +1,486 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner-area img {
+    width: 90%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+
+
+.support-box {
+    overflow: hidden;
+    background-color: #001D44;
+}
+
+.support-box ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    position: relative;
+    padding: 10px 0;
+    border-left: 0;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-left {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.service-left i {
+    font-size: 30px;
+    color: #001D44;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 100%;
+    padding: 16px 0;
+}
+
+.service-right {
+    width: 80%;
+    float: right;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.service-right h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service-right p {
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.header-wraper {
+    margin: 30px 0 0;
+}
+
+.satisfacation {
+    text-align: right;
+    margin: 40px 0;
+}
+
+.satisfacation img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.footer-widget.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.header-area {
+    margin: 30px 0;
+}
+
+/*======================== Menu Design ==================*/
+
+.menu-container {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+#navbar {
+    background-color: #001D44;
+    padding: 5px 0;
+    text-align: center;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #EF8918;
+    box-shadow: 0 5px 0 0 #EF8918, 0 0 0 0 inset, 0 -5px 0 0 #EF8918;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.menu-container label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 20px;
+    top: -45px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #EF8918;
+}
+
+#navbar ul {
+    display: inline-flex;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+#navbar ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.5s;
+    padding: 12px 20px;
+    letter-spacing: 1px;
+}
+
+#navbar ul li a i.fa {
+    margin-right: 5px;
+}
+
+
+#navbar ul li a:hover {
+    background-color: #EF8918;
+    color: #fff;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+.Product-title-area {
+    background-color: #001D44;
+}
+
+.pro-title {
+    background-color: #001D44;
+    border-radius: 5px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.pro-title h3 {
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.dis-heading {
+    background-color: #000;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+
+.dis-heading h3 {
+    font-size: 24px;
+    color: #FF0000;
+
+}
+
+/*  ================================
+        product area start
+    ================================ */
+
+.box-area {
+    margin: 0 0 30px;
+}
+
+.box-area h1 {
+    background-color: #001D44;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box-content {
+    padding: 30px 30px 0;
+    overflow: hidden;
+}
+
+.pro-img {
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.product-img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.pro-single-img {
+    height: 542px;
+    position: relative;
+}
+
+.pro-single-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+
+}
+
+.warranty {
+    margin: 30px 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.pro-features h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.pro-content {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.pro-content h2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.pro-content h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0;
+}
+
+.pro-content h4 {
+    font-size: 20px;
+    color: #000;
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+.pro-content h4 img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.pro-content h4 i.fa {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.pro-content h5 {
+    font-size: 14px;
+    color: #000;
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+.pro-content ul {
+    margin-bottom: 15px;
+}
+
+.pro-content ul li {
+    list-style: none;
+    padding: 3px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pro-content ul li::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 0;
+    color: #000;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-top {
+    padding: 80px 0 50px;
+    background-color: #001D44;
+}
+
+.footer-widget h2 {
+    padding-left: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer-widget h2::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    height: 100%;
+    border: 1px solid #fff;
+}
+
+.footer-widget p {
+    margin: 0 0 20px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-widget h3 {
+    padding: 65px 0 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    font-weight: bold;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.footer-widget.ta img {
+    background-color: #111111;
+    padding: 20px;
+}
+
+.footer-widget ul {
+    margin-bottom: 20px;
+}
+
+.footer-widget ul li {
+    color: #fff;
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-widget ul li::before {
+    position: absolute;
+    content: "-";
+    font-family: fontawesome;
+    left: 0;
+    color: #fff;
+}
+
+.copy-right {
+    padding: 30px 0 7000px;
+}
+
+.copy-right p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
